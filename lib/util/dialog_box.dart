@@ -34,12 +34,14 @@ class DialogBox extends StatelessWidget {
               // Cancel button
               MyButton(
                 text: 'Cancel',
+                color: Colors.white38,
                 onPressed: onCancel,
               ),
 
               // Save button
               MyButton(
                 text: 'Save',
+                color: Theme.of(context).primaryColor,
                 onPressed: onSave,
               ),
             ])
